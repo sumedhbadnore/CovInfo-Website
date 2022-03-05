@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+
+
+.marvel{
+    color: black;
+    padding-top: 200px;
+    width: 300px;
+    margin: auto;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.marvel ul{
+  list-style: none;
+}
+.marvel h1{
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 35px;
+}
+.marvel li{
+    
+    text-align: center;
+    font-size: 30px;
+}

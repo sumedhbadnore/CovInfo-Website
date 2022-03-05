@@ -1,0 +1,140 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+  
+    color:rgb(25, 61, 128);
+}
+body{
+    background-color: white;;
+
+} 
+.cname{
+    padding-bottom: 20px;
+    color:rgb(80, 80, 80);
+    font-size: 30px;
+    font-weight: 50px;
+}
+.total-cases ,.total-recovered, .total-deaths, .active-cases,.today-cases,.today-recovered,.today-deaths,.critical{
+   
+    height: 14.5rem;
+    width:14.5rem;
+    padding:1rem;
+    border-radius: 5px;
+    margin:1rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: inset 5px 5px 5px rgba(0,0,0,0),
+                inset -5px -5px 5px rgba(12, 12, 12, 0.5),
+                5px 5px 5px rgba(0,0,0,0.5),
+                -5px -5px 5px rgba(12, 12, 12, 0.5); */
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.26); */
+    transition: 0.3s ease; 
+}
+.total-cases:hover{
+    background-color: white;
+    color:blue;
+    font-size: 20px;
+}
+.today-deaths:hover{
+    background-color: white;
+    color:red;
+    font-size: 20px;
+}
+.critical:hover{
+    background-color: white;
+    color:rgb(247, 190, 35);
+    font-size: 20px;
+} 
+.total-recovered:hover{
+    background-color: white;
+    color:green;
+    font-size: 20px;
+}  
+.total-deaths:hover{
+    background-color: white;
+    color:red;
+    font-size: 20px;
+} 
+
+.active-cases:hover{
+    background-color: white;
+    color:rgb(247, 190, 35);
+    font-size: 20px;
+} 
+.today-cases:hover{
+    background-color: white;
+    color:blue;
+    font-size: 20px;
+} 
+.today-recovered:hover{
+    background-color: white;
+    color:green;
+    font-size: 20px;
+  
+} 
+
+ input{
+    height:3rem;
+    width: 20.5rem;
+    padding: 12px;
+    border: 0;
+    outline: 0;
+    resize: vertical;
+    border-bottom: 2px solid rgb(107, 107, 107);
+    font-size: 20px;
+}
+.button button{
+    width: 7rem;
+    height: 3rem;
+    border:none;
+    font-weight: 400;
+    color: white;
+    background: linear-gradient(45deg, #f51010, #2640d3);
+    border-radius: 1.4rem;
+    transition: ease-out 0.3s;
+
+}
+
+.button button:hover{
+    background: linear-gradient(to right, #FF5403, #e6dc23);
+}
+
+.img{
+    margin: 1rem;
+}
+.center{
+    margin: 1rem;
+}
+.box{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.btndiv{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+i{
+ font-size: 50px;
+}
+
+

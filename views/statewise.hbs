@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Tracker</title>
+    <link rel="icon" type="image/png" href="siteicon.png" sizes="16x16">
+    <link rel="stylesheet" href="navbar_style.css">
+    <link rel="stylesheet" href="statewise.css">
+</head>
+<body>
+    {{>navbar}}
+    <div class="content-box">
+        <div class="content">
+        <h1 >Covid-19 India State-Wise Data</h1>
+        <h2 class="h2"><a href="/vaccinated">Vaccination Data</a></h2>
+        </div>
+    </div>
+    
+    <div class="box">
+        <div class="inner">
+          
+        <div class="activecase">
+          <h3>Active</h3>
+        </div>
+        
+        <p id="activecase"></p>
+        </div>
+        <div class="inner">
+        
+        <div class="confirm">
+            <h3>Confirmed</h3>
+            
+        </div>
+        
+         <p id="confirmed"></p>
+        </div>
+        <div class="inner">
+           
+        <div class="recovered">
+            <h3>Recovered</h3>    
+        </div>
+        
+        <p id="recovered"></p>
+        </div>
+        <div class="inner">
+           
+        <div class="deceased">
+           <h3>Deceased</h3>  
+        </div>
+       
+        <p id="deceased"></p>
+        </div>
+    </div>
+    <div class="canvas">
+    <canvas id="myChart"></canvas>
+    </div>
+</body>
+{{!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script src="js/state_data.js"></script>
+</html>

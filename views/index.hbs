@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Tracker</title>
+    <link rel="icon" type="image/png" href="siteicon.png" sizes="16x16">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="container">
+
+
+
+        <div class="inner">
+            <div class="country">
+
+                <h1><span id="country-name"></span> <span id="iso3"> </span></h1>
+            </div>
+            <div class="img">
+                <p id="img" style="box-shadow: 0 10px 20px rgba(0, 0, 0, 0.295)"></p>
+            </div>
+            <div class="continent">
+                <h2 id=""><span id="continent"></span> <span id="iso2"> </span></h2>
+            </div>
+            <div class="input">
+                <center class="center">
+                    <p class="cname"><b>Enter Country Name</b></p>
+                </center>
+                <input type="text" id="input" placeholder="Country Name"><br>
+            </div>
+            <div class="btndiv">
+            <div class="button">
+                <button id="submit" type="submit">Check Data</button><br>
+            </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="total-cases">
+                <i class="fas fa-globe-americas"></i><br>
+                <p id="">Total Cases</p>
+                <p><span id="total-cases"></span></p>
+            </div>
+            <div class="total-recovered">
+                <i class="fas fa-shield-virus"></i><br>
+                <p id="">Total Recovered</p>
+                <p><span id="total-recovered"></span></p>
+            </div>
+            <div class="total-deaths">
+                <i class="fas fa-clinic-medical"></i><br>
+                <p id="">Total Deaths</p>
+                <p><span id="total-deaths"></span></p>
+            </div>
+            <div class="active-cases">
+                <i class="fas fa-hospital-user"></i><br>
+                <p id="">Active Cases</p>
+                <p><span id="cases"></span></p>
+            </div>
+            <div class="today-cases">
+                <i class="fas fa-viruses"></i><br>
+                <p id="">Today Cases</p>
+                <p><span id="today-cases"></span></p>
+            </div>
+            <div class="today-recovered">
+                <i class="fas fa-head-side-mask"></i><br>
+                <p id="">Today Recovered</p>
+                <p><span id="today-recovered"></span></p>
+            </div>
+            <div class="today-deaths">
+                <i class="fas fa-virus"></i><br>
+                <p id="">Today Deaths</p>
+                <p><span id="today-deaths"></span></p>
+            </div>
+            <div class="critical">
+                <i class="fas fa-temperature-high"></i><br>
+                <p id="">Critical</p>
+                <p><span id="critical"></span></p>
+            </div>
+        </div>
+        
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="js/country_data.js"></script>
+</body>
+
+</html>

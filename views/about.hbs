@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Tracker</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="icon" type="image/png" href="siteicon.png" sizes="16x16">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="navbar_style.css">
+</head>
+<style>
+        h2{
+            text-align: center;
+        }
+        .socials{
+            font-size: 24px;
+            text-align: center;
+            padding: 10px;
+            margin: 15px 10px;
+        }
+        .socials:hover{
+            color: rgb(235, 41, 115)!important;
+        }
+        .space{
+            margin: 0 15px;
+        }
+        .marvel {
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            text-decoration: none;
+            
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+</style>
+<body>
+    {{>navbar}}
+    <div class="marvel">
+        <h2>About Me:</h2>
+        <div class="myinfo">
+            <p><br>Hello, I'm Sumedh Badnore, a third year EXTC engineering student studying at Mumbai University.
+                I am a tech enthusiast and currently I'm working on few of my own projects to develop my skills in MERN stack.<br>
+                <br>Connect with me: 
+            </p>
+        </div>
+        <div class="socials">
+            <a href="https://github.com/sumedhbadnore" target="blank"><i class="uil uil-github-alt"></i></a>
+            <a href="https://www.linkedin.com/in/sumedh-badnore/" target="blank"><i class="uil uil-linkedin-alt space"></i></a>
+            <a href="https://www.linkedin.com/in/sumedh-badnore/" target="blank"><i class="uil uil-envelope"></i></a>
+        </div>
+    </div>
+    
+</body>
+</html>

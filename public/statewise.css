@@ -1,0 +1,105 @@
+body{
+    background-color: white;
+}
+.content-box{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    width: 80%;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    transition: all 0.1s ease-in;
+}
+.h2{
+    position: absolute;
+    right: 0;
+    padding: 1rem;
+}
+
+a{
+    color:rgb(145, 145, 145);
+}
+a:hover{
+    color:black
+}
+.content:hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.box{
+    color: black;
+    margin: 2rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inner{
+   text-align: center;
+}
+
+
+.activecase,.confirm,.recovered,.deceased{
+   background-color: white;
+   border-radius: 5px;
+   color:black;
+   padding: 0.5rem;
+}
+.activecase{
+    transition: 0.1s ease;
+}
+.confirm{
+    transition: 0.1s ease;
+}
+.recovered{
+    transition: 0.1s ease;
+}
+.deceased{
+    transition: 0.1s ease;
+}
+/* .activecase:hover{
+    background:linear-gradient(45deg,#0431B4,#0040FF);
+    color: black;
+}
+.confirm:hover{
+    background:linear-gradient(55deg,#AEB404,#D7DF01);
+    color: black;
+}
+.recovered:hover{
+    background:linear-gradient(45deg,#088A08,#00FF40);
+    color: black;  
+}
+.deceased:hover{
+    background:linear-gradient(55deg,#FF0000,#FE2E2E);
+    color: black;
+} */
+
+p{
+    margin: 1rem;
+}
+#activecase:hover{
+   color:black;
+}
+#confirmed:hover{
+    color:black;
+}
+#recovered:hover{
+    color:black;
+}
+#deceased:hover{
+    color:black;
+}
+
+.canvas{
+    width: 95%;
+}
