@@ -9,4 +9,4 @@ I've used chartjs to visualize vaccination and active cases data in Indian State
 
 
 Please <a href="https://covinfosite.herokuapp.com/" target="blank">click here</a> to view the website.<br>
-Currently the site is not responsive, please open it on desktop.
+
